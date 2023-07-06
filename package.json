@@ -14,7 +14,8 @@
     "@strapi/plugin-users-permissions": "4.11.3",
     "@strapi/strapi": "4.11.3",
     "mysql": "2.18.1",
-    "strapi-location-field-plugin": "1.2.2"
+    "strapi-location-field-plugin": "1.2.2",
+    "@amicaldo/strapi-google-maps": "1.0.2"
   },
   "author": {
     "name": "A Strapi developer"
