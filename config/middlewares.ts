@@ -7,7 +7,7 @@ export default [
         useDefaults: true,
         directives: {
           "connect-src": ["'self'", "https:"],
-          "script-src": ["self", "https://maps.googleapis.com"],
+          "script-src": ["'self'", "https://maps.googleapis.com"],
           "img-src": [
             "'self'",
             "data:",
