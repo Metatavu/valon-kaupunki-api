@@ -1,8 +1,4 @@
 export default ({ env }) => ({
-  "google-maps": {
-    enabled: true,
-    resolve: "./src/plugins/strapi-google-maps",
-  },
   "location-field": {
     enabled: true,
     config: {
