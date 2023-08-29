@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "favourite_users",
+  "info": {
+    "singularName": "favourite-user",
+    "pluralName": "favourite-users",
+    "displayName": "FavouriteUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "deviceIdentifier": {
+      "type": "text"
+    },
+    "attraction": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::attraction.attraction"
+    }
+  }
+}

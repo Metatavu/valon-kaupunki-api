@@ -10,11 +10,13 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.11.3",
-    "@strapi/plugin-users-permissions": "4.11.3",
-    "@strapi/strapi": "4.11.3",
+    "@strapi/plugin-i18n": "4.12.7",
+    "@strapi/plugin-users-permissions": "4.12.7",
+    "@strapi/strapi": "4.12.7",
     "mysql": "2.18.1",
-    "strapi-location-field-plugin": "1.2.2"
+    "strapi-location-field-plugin": "1.2.2",
+    "@amicaldo/strapi-google-maps": "1.1.3",
+    "@strapi/provider-upload-aws-s3": "4.12.7"
   },
   "author": {
     "name": "A Strapi developer"
@@ -23,7 +25,7 @@
     "uuid": "d8199066-062c-43e9-b309-6b2605948d0c"
   },
   "engines": {
-    "node": "18.16.0"
+    "node": "18.17.1"
   },
   "license": "MIT"
 }
