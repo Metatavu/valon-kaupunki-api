@@ -1,0 +1,7 @@
+/**
+ * favourite-user router
+ */
+
+import { factories } from '@strapi/strapi';
+
+export default factories.createCoreRouter('api::favourite-user.favourite-user');

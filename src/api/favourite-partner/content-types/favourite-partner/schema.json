@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "favourite_partners",
+  "info": {
+    "singularName": "favourite-partner",
+    "pluralName": "favourite-partners",
+    "displayName": "FavouritePartner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "partner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::partner.partner"
+    },
+    "deviceIdentifier": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "benefit_users",
+  "info": {
+    "singularName": "benefit-user",
+    "pluralName": "benefit-users",
+    "displayName": "BenefitUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "benefit": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::benefit.benefit"
+    },
+    "deviceIdentifier": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
