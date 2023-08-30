@@ -1,4 +1,4 @@
-export default [
+export default ({ env }) => [
   "strapi::errors",
   {
     name: "strapi::security",
@@ -12,7 +12,7 @@ export default [
             "'self'",
             "data:",
             "blob:",
-            "https://staging-valon-kaupunki.s3.us-east-2.amazonaws.com",
+            env("CDN_URL"),
             "https://maps.gstatic.com",
             "https://maps.googleapis.com",
             "khmdb0.google.com",
