@@ -58,11 +58,10 @@
       },
       "type": "enumeration",
       "enum": [
-        "restaurant",
-        "cafe",
-        "bar",
+        "restaurant-or-cafe",
         "shop",
-        "other"
+        "supplementary-show",
+        "jyvas-parkki"
       ],
       "required": true
     },

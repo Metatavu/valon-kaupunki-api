@@ -34,8 +34,8 @@
       },
       "type": "enumeration",
       "enum": [
-        "static",
-        "event"
+        "permanent-attraction",
+        "event-light-art-piece"
       ],
       "required": true
     },
