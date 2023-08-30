@@ -1,6 +1,6 @@
 export default [
   "strapi::errors",
-  { 
+  {
     name: "strapi::security",
     config: {
       contentSecurityPolicy: {
